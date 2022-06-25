@@ -264,8 +264,7 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: #000000
-    background-size: cover;
+    background: #0000;
     padding: 15px;
     overflow: hidden
 }
