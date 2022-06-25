@@ -10,7 +10,7 @@
     that don't come from third party libraries. This file gets compiled using
     Gulp and send to the /css folder which is then loaded on the page.
 */
-body {
+body {height: 3px;
     font-family: 'Lato', sans-serif;
     font-size: 16px
 }
@@ -297,6 +297,13 @@ footer {
     font-weight: 500;
     font-size: 2.25em;
     margin-bottom: 15px
+}
+
+#lead-content h3 {
+    color: #eba32e;
+    font-weight: 700;
+    font-size: 2.00em;
+    margin-bottom: 3px
 }
 
 #lead-overlay {
