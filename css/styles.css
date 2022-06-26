@@ -103,7 +103,7 @@ header a:hover {
 }
 
 header a:focus {
-    color: #3498db;
+    color: #ffffff;
     text-decoration: none
 }
 
@@ -156,6 +156,7 @@ header.sticky {
 }
 
 footer {
+    background:rgb(0, 0, 0);
     padding: 50px 0
 }
 
@@ -165,7 +166,7 @@ footer {
 
 .copyright p {
     margin: 0;
-    color: #74808a
+    color: #f1a000;
 }
 
 .top {
@@ -184,7 +185,7 @@ footer {
 }
 
 .top i {
-    color: hsl(207, 9%, 50%)
+    color: hsl(207, 9%, 50%);
 }
 
 .social {
@@ -209,7 +210,7 @@ footer {
 }
 
 .social a:hover {
-    color: #3498db
+    color: #f1a000;
 }
 
 .btn-rounded-white {
@@ -502,13 +503,13 @@ footer {
 
 .education-block h3 {
     font-weight: 500;
-    float: left;
-    color: #f1a000
+    float: center;
+    color: #f1a000;
 }
 
 .education-block span {
     color:rgb(255, 255, 255);
-    float: right
+    float: center;
     
 }
 
@@ -544,8 +545,8 @@ footer {
     max-width: 900px;
     margin: 0 auto 30px auto;
     overflow: hidden;
-    background: #fff;
-    border-radius: 4px
+    background: rgb(79, 79, 79);
+    border: 3px solid #dcd9d9;
 }
 
 .project-image {
@@ -563,12 +564,12 @@ footer {
 .project-info h3 {
     font-size: 1.5em;
     font-weight: 300;
-    color: #374054;
+    color: #f1a000;
     margin: 0 0 15px 0
 }
 
 .project-info p {
-    color: #74808a;
+    color: #ffffff;
     margin: 0 0 15px 0;
     font-size: 0.9em
 }
@@ -585,12 +586,13 @@ footer {
 }
 
 #skills {
+    background:rgb(0, 0, 0);
     padding: 50px 15px;
     text-align: center
 }
 
 #skills h2 {
-    color: #374054;
+    color: #f1a000;
     margin-bottom: 50px
 }
 
@@ -605,8 +607,8 @@ footer {
     display: inline-block;
     margin: 7px;
     padding: 5px 10px;
-    color: #374054;
-    background: #e4e4ea;
+    color: #f1a000;
+    background: rgb(61, 61, 61);
     list-style: none;
     cursor: default;
     font-size: 1.2em
@@ -614,13 +616,13 @@ footer {
 
 #contact {
     padding: 50px 15px;
-    background: #3498db;
+    background: #000000;
     text-align: center
 }
 
 #contact h2 {
     margin: 0 0 15px 0;
-    color: #fff;
+    color: #f1a000;
     font-weight: 500
 }
 
@@ -636,13 +638,13 @@ footer {
     border-radius: 4px;
     border: none;
     margin-bottom: 10px;
-    background: #1d6fa5;
-    color: #fff;
+    background:rgb(61, 61, 61);
+    color: #f1a000;
     transition: .5s ease all
 }
 
 #contact-form input::-webkit-input-placeholder, #contact-form textarea::-webkit-input-placeholder {
-    color: #fff
+    color: #f1a000;
 }
 
 #contact-form input:-moz-placeholder, #contact-form textarea:-moz-placeholder {
@@ -661,7 +663,8 @@ footer {
 
 #contact-form input:focus, #contact-form textarea:focus {
     outline: none;
-    background: #16527a
+    background: rgb(80, 80, 80);
+
 }
 
 #contact-form textarea {
@@ -672,11 +675,11 @@ footer {
 #contact-form button {
     display: block;
     width: 100%;
-    background: #fff;
+    background: rgb(61, 61, 61);
     border-radius: 4px;
     padding: 5px 10px;
     border: none;
-    color: #3498db;
+    color: #f1a000;
     font-weight: 700;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     transition: .5s ease all
