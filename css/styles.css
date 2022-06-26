@@ -366,16 +366,22 @@ footer {
 #about {
     background:rgb(0, 0, 0);
     padding: 75px 15px;
+    text-align: center;
     
 }
 
 #about h2 {
-    color: #f1a000
+    text-align: center;
+    color: #f1a000;
+    
 }
 
 #about p {
     color: #ffffff;
-    margin: 0
+    text-align: center;
+    margin: 0;
+    line-height: 2;
+    
 }
 
 #experience {
