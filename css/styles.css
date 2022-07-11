@@ -103,7 +103,7 @@ header a:hover {
 }
 
 header a:focus {
-    color: #ffffff;
+    color: #f1a000;
     text-decoration: none
 }
 
@@ -580,7 +580,7 @@ footer {
    color: white;
    text-align: left;
 
-   
+
 
 }
 
