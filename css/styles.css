@@ -10,9 +10,15 @@
     that don't come from third party libraries. This file gets compiled using
     Gulp and send to the /css folder which is then loaded on the page.
 */
-body {height: 3px;
-    font-family: 'Lato', sans-serif;
-    font-size: 16px
+#preloader{
+   
+    background: #000 url(images/loader.gif);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    
+    
 }
 
 body.active {
@@ -897,3 +903,5 @@ footer {
         padding: 5px 10px
     }
 }
+
+
